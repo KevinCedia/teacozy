@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    color: #FFF;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+    opacity: 0.9;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+a {
+    color: #FFF;
+}
+
+section {
+    padding: 30px 0px;
+}
+
+footer {
+    text-align: left;
+}
+
+.navright {
+    margin-right: 20px;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navleft {
+    margin-left: 20px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+.hero {
+    display: block;
+    margin: 39px auto 0;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.herobox {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1vdn774*_ga*MDIzODkxMzQ5OC4xNjc2NjQ1Mjcz*_ga_3LRZM6TM9L*MTY3NzkzMDg0NS4zNC4xLjE2Nzc5MzEyMDIuMC4wLjA.);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero-text {
+    background-color: black;
+    opacity: 0.9;
+}
+
+.totm {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tea img{
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.tea h4 {
+    margin-top: 10px;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations article {
+    display: block;
+    margin: 0 auto 0;
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1vdn774*_ga*MDIzODkxMzQ5OC4xNjc2NjQ1Mjcz*_ga_3LRZM6TM9L*MTY3NzkzMDg0NS4zNC4xLjE2Nzc5MzEyMDIuMC4wLjA.);
+}
+
+.locationflex {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.location-box {
+    background-color: black;
+    opacity: 0.9;
+    margin: 15px 20px;
+    width: 300px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact {
+    height: 200px;
+}
+
